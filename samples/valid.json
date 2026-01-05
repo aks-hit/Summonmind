@@ -1,0 +1,34 @@
+{
+  "schema_def": {
+    "version": 1,
+    "fields": {
+      "firstName": "string",
+      "lastName": "string",
+      "age": "number"
+    },
+    "computed": {
+      "fullName": "{{firstName}} {{lastName}}"
+    }
+  },
+  "rules": [
+    {
+      "id": "r1",
+      "level": "field",
+      "field": "age",
+      "condition": "value >= 18",
+      "action": "validate"
+    },
+    {
+      "id": "r2",
+      "level": "field",
+      "field": "firstName",
+      "condition": "len(value) >= 2",
+      "action": "validate"
+    }
+  ],
+  "data": {
+    "firstName": "Akshit",
+    "lastName": "Singh",
+    "age": 23
+  }
+}
