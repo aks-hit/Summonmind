@@ -1,4 +1,4 @@
-# SummonMind Backend Screening
+# SummonMind Backend
 
 This repository contains a minimal FastAPI-based backend service built as part of the SummonMind backend screening exercise.
 
