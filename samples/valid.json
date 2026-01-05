@@ -24,11 +24,20 @@
       "field": "firstName",
       "condition": "len(value) >= 2",
       "action": "validate"
+    },
+    {
+      "id": "t1",
+      "level": "field",
+      "field": "age",
+      "action": "transform",
+      "expression": "value + 1"
     }
-  ],
+
+ ],
+
   "data": {
     "firstName": "Akshit",
     "lastName": "Singh",
-    "age": 23
+    "age": 17
   }
 }

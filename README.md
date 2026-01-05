@@ -144,6 +144,7 @@ The script sends requests to the live `/validate` endpoint and prints responses 
 - Field-level declarative rule evaluation
 - Multiple rules per request
 - Structured validation errors
+- Transform rules that safely mutate data before validation
 - Depth guard to prevent infinite evaluation (max depth = 5)
 - Deterministic and idempotent execution
 
